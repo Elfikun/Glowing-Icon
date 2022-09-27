@@ -15,7 +15,7 @@ section {
   min-height: 100vh;
   background: radial-gradient(#f00, rgba(0, 0, 0, 0.5)), url(wall.jpg);
   background-blend-mode: multiply;
-  animation: animateBgColor 5s linear infinite;
+  /* animation: animateBgColor 5s linear infinite; */
 }
 @keyframes animateBgColor {
   0% {
@@ -54,12 +54,8 @@ section::after {
   z-index: 1000;
   text-align: center;
 }
-.icon svg path {
-  /* stroke: rgb(255, 0, 0); */
-  /* stroke-width: 1px; */
-  /* fill: transparent; */
-  filter: blur(0.485418px);
-  /* filter: drop-shadow(0px 2px 3px #000) blur(0.5px); */
+.icon svg path {    
+  /* filter: drop-shadow(0px 10px 1px #000) blur(0.7px); */
   animation: animateTxColor 3s infinite;  
 }
 @keyframes animateTxColor {
