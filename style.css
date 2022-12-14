@@ -130,24 +130,34 @@ section::after {
     opacity: 1;
   }
 }
-.icon h2 {
-  position: relative;
+h2 {
+	position: relative;
   color: #fff;
   font-size: 7em;
   font-weight: normal;
   text-shadow: 0 10px 10px #000;
-  box-shadow: 5px 0 0 #fff;
   overflow: hidden;
-  animation: textTyping 6s steps(5) infinite;
+}
+.glitch{
+  position: relative;
+  color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+  font-size: 2.5em;
+  font-weight: normal;
+  text-shadow: 0 10px 10px #000;
+  box-shadow: 3px 0 0 #fff;
+  overflow: hidden;
+  animation: textTyping 7s steps(11) infinite;
 }
 @keyframes textTyping {
   0%,
   90%,
   100% {
-    width: 1px;
+    width: 0%;
   }
   30%,
   60% {
-    width: 331.53px;
+    width: 60%;
   }
 }
