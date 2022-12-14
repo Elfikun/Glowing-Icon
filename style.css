@@ -148,7 +148,7 @@ h2 {
   text-shadow: 0 10px 10px #000;
   box-shadow: 3px 0 0 #fff;
   overflow: hidden;
-  animation: textTyping 7s steps(11) infinite;
+  animation: textTyping 4s steps(12) infinite;
 }
 @keyframes textTyping {
   0%,
