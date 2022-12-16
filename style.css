@@ -75,7 +75,7 @@ section::after {
 	position: absolute;
 	justify-content: center;
 	filter: drop-shadow(0px 6px 1px #000) blur(0.7px);
-	animation: animateTxColor 6s infinite;
+	animation: animateTxColor 4.5s infinite;
 	z-index: 2;
 }
 @keyframes animateTxColor {
