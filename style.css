@@ -63,9 +63,19 @@ section::after {
 	z-index: 1000;
 	/* justify-content: center; */
 }
-.icon .svg {
-	/* filter: drop-shadow(0px 6px 1px #000) blur(0.7px); */
+.icon .svg .bg_img {
+	position: relative;
+	justify-content: center;
+	z-index: 1;
+}
+.icon .svg .logo {
+	padding-top: 240px;
+	padding-left: 195px;
+	position: absolute;
+	justify-content: center;
+	filter: drop-shadow(0px 6px 1px #000) blur(0.7px);
 	animation: animateTxColor 6s infinite;
+	z-index: 2;
 }
 @keyframes animateTxColor {
 	0% {
