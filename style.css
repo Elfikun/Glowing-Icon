@@ -17,7 +17,7 @@ section {
 	min-height: 100vh;
 	background: radial-gradient(rgba(255, 0, 157, 0.815), rgba(0, 0, 0, 0.5)),
 		url(bg.png);
-		background-size: 100%;
+	background-size: 100%;
 	background-blend-mode: multiply;
 	/* animation: animateBgColor 5s linear infinite; */
 }
