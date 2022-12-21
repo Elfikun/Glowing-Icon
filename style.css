@@ -24,6 +24,7 @@ section {
 	background: radial-gradient(rgba(255, 0, 157, 0.815), rgba(0, 0, 0, 0.5)),
 		url(bg.png);
 	background-blend-mode: multiply;
+	background-size: 100%;
 	/* animation: animateBgColor 5s linear infinite; */
 }
 @keyframes animateBgColor {
